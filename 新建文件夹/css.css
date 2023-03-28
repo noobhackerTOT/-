@@ -1,0 +1,41 @@
+
+@keyframes jian {
+   0%   {    background-color: red  ;left: 0px;top: 0px; background-image:url(1679470843479.jpeg)  
+    ;background-size: contain;  transform: rotate3d(72degrees);}
+    25% {         background-color: aquamarine;  left: 1300px;  top:0px;background-image:url(1679470843539.jpeg);background-size: contain;transform: rotate3d(72degrees);}
+   50%{      background-color: purple;  left: 1300px;  top:550px;background-image: url(1679470843851.jpeg);background-size: contain;transform: rotate3d(72degrees);}
+   75%{  background-color:green;  left: 0px;  top:550px;background-image: url(1679470844226.jpeg);background-size: contain; transform: rotate3d(72degrees);    }
+    100%{background-color:yellow;left:0px; top: 0px;background-image: url(1679470843851.jpeg);background-size: contain;transform: rotate3d(72degrees);}
+    
+}
+.class{
+    width:200px;
+    height:200px ;
+    animation-duration: 20s;
+    animation-name:jian;
+    animation-iteration-count: infinite;
+    position: relative;
+    float: left;
+    background-color: white;
+}
+@keyframes wu{
+   0%{   transform: rotateY(0deg);     }
+   25%{  transform: rotateY(90deg);                               }  
+   50%{      transform: rotateY(180deg);                                 } 
+   75%{       transform: rotateY(270deg);                                 }  
+   100%{       transform: rotateY(360deg);                                 }
+   
+ }
+  .class1{
+
+   
+   animation-duration: 20s;
+   animation-name: wu;
+   animation-iteration-count: infinite;
+        position: absolute;
+        background-color: black;
+  }
+  
+body{
+    background-color: grey;
+}
